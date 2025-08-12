@@ -21,7 +21,6 @@ class Human():
 
     @property   #lets python know that the arguement in line 37 is function without using ()
     def get_name(self):
-        #print('SOmebody is tring to get the name if a property')
         now = datetime.now()
         print('current time and', now)
         write_file(f_name="log.txt", txt=f"At {now} got name from Kayeem")
