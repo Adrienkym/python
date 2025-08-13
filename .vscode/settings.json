@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlite",
+            "database": "${workspaceFolder:python}/dibs/sqlite/db.db"
+        },
+        {
+            "previewLimit": 50,
+            "server": "aws-0-ap-south-1.pooler.supabase.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "password": "adriano@13",
+            "database": "postgres",
+            "username": "postgres.zgusezrdepdhjcleelrh"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
