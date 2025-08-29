@@ -1,0 +1,7 @@
+[requires]
+python_version = "3.12"
+
+[packages]
+psycopg = {extras = ["pool", "binary"], version = "*"}
+sqlalchemy = "*"
+alembic = "*"

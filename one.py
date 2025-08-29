@@ -44,4 +44,31 @@ def count_vowels(word):
         if word[i] in vowels:           # if any i in the word is in the vowel list
             count = count + 1           # the count goes up by one
     print(count)        
-count_vowels("banana")            
+count_vowels("banana")    
+
+#check the gcf
+def Division(num1,num2):
+# check if both numbers are in the range of 1 to 1000
+    if not (1 <= num1 <= 10**3 and 1 <= num2 <= 10**3):
+        raise ValueError ("Both numbers must be in the range of 1 to 10^3.")
+  
+    while num2 != 0:
+      num1, num2 = num2, num1 % num2
+    return num1  
+
+# keep this function call here 
+print(Division(82, 48))
+
+#
+#SELECT
+ # e.Position,
+ # e.FirstName,
+ # e.LastName,
+ # m.Position AS ReportsToPosition
+#FROM
+ # main_table_29UAQ AS e
+#JOIN
+ # main_table_29UAQ AS m ON CONCAT(m.FirstName, ' ', m.LastName) = e.ReportsTo
+#ORDER BY
+ # ReportsToPosition ASC,
+  #Position ASC;
